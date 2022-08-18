@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.11a0b74f.css",
+    "main.js": "/static/js/main.ddc6e1dc.js",
+    "static/media/bg-blog.jpg": "/static/media/bg-blog.2275cb7567d81c23093e.jpg",
+    "static/media/login-bg.jpg": "/static/media/login-bg.aad47984e6b54527c588.jpg",
+    "static/media/about-bg.jpg": "/static/media/about-bg.7a70d0ba0c3b39f07035.jpg",
+    "static/media/reg-bg.jpg": "/static/media/reg-bg.d1fe38112db748c08f73.jpg",
+    "static/media/about.jpg": "/static/media/about.d35cb8feca401014b936.jpg",
+    "static/media/welcome-image.jpg": "/static/media/welcome-image.ab740b1a9641e4a20f88.jpg",
+    "static/media/resident-home.jpg": "/static/media/resident-home.d37899d4e4505bed767b.jpg",
+    "static/media/contact-bg.jpg": "/static/media/contact-bg.4d36829d05e585be70e6.jpg",
+    "static/media/kapish.jpeg": "/static/media/kapish.b30e93021ead69dbd51c.jpeg",
+    "static/media/Richa.jpg": "/static/media/Richa.c3c8ac314d8a59dec40d.jpg",
+    "static/media/f1.JPG": "/static/media/f1.09a8795aaf9b0c8d5563.JPG",
+    "static/media/f4.JPG": "/static/media/f4.e213bd40f7f06f35b396.JPG",
+    "static/media/tree.jpg": "/static/media/tree.9e819ca613c7eedae49a.jpg",
+    "static/media/jahnavi.jpg": "/static/media/jahnavi.38a6247e6bc9f6c0d911.jpg",
+    "static/media/f3.JPG": "/static/media/f3.c9fcf2d65d0b51ba3e89.JPG",
+    "static/media/f2.JPG": "/static/media/f2.804ffcd3968f1739f7b1.JPG",
+    "static/media/meta-chart.jpeg": "/static/media/meta-chart.30d0c186243a62a7ab70.jpeg",
+    "index.html": "/index.html",
+    "main.11a0b74f.css.map": "/static/css/main.11a0b74f.css.map",
+    "main.ddc6e1dc.js.map": "/static/js/main.ddc6e1dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11a0b74f.css",
+    "static/js/main.ddc6e1dc.js"
+  ]
+}
