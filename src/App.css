@@ -1,0 +1,920 @@
+/*
+Shewale, Kapish(1001870794)
+Pagare, Richa(1001873138)
+Gutta, Sai Jahnavi(1002011051)
+
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Lato:wght@300&family=League+Gothic&display=swap');
+
+/*Global Properties*/
+body {
+	  background: #99bbff;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+h4 {
+	text-align: center;
+}
+
+
+div.master-container {
+	display: grid;
+}
+/*End Global Properties*/
+
+/*Navigation-bar properties*/
+div.navigation-header {
+	background-color: #333;
+	position:sticky;
+    top:0;
+    width:100%;
+    z-index:100;
+}    
+
+div.navigation-header ul {
+
+  	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	padding: 1%;
+    }
+
+div.navigation-header li {
+  	float: left;
+   }
+
+div.navigation-header li a {
+	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+	}
+
+	div.navigation-header li a:hover {
+		color: #9bf;
+	}
+
+	div.navigation-header div.menu-items {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
+/*Welcome image settings*/
+div.welcome-heading {
+background-image: url("images/welcome-image.jpg");
+text-align: center;
+font-family: 'League Gothic', sans-serif;
+font-size: 5em;
+background-repeat: no-repeat;
+background-position: left;
+background-size: cover;
+padding-bottom: 5em;
+  }
+ 
+ div.welcome-heading span {
+ 	background: aliceblue;
+	margin: 0 auto;
+	display: inline-block;
+	padding: 1%;
+  margin-top: 21%;
+ }
+
+div.down-arrow img{
+	width: 3%;
+
+}
+
+/*About Content*/
+
+div.about,
+div.about-2,
+div.about-3 {
+	font-size: 1.4em;
+
+  padding: 3% 3% 0% 3%;
+}
+
+div.heading {
+	font-size: 2em;
+}
+div.about-image {
+	padding: 3%;
+	float: left;
+	width: 45%;
+}
+
+div.about-image img{
+	max-width: 100%;
+	border-radius: 60%;
+}
+div.about-content {
+	float: left;
+	width: 45%;
+}
+
+div.about-2 {
+background: url("images/about-bg.jpg");
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+height: 100%;
+background-position: center;
+background-size: cover;
+color: white;
+}
+
+div.about-2 div.about-content {
+	background: rgba(0, 0, 0, 0.38);
+}
+
+div.about-3 div.about-content {
+	float: right;
+	width: 45%;
+	
+}
+
+
+/*Contact-us*/
+
+div.contact-us {
+	background: url("images/contact-bg.jpg");
+  background-size: auto;
+background-size: contain;
+padding-bottom: 5%;
+margin-top: 2%;
+}
+
+div.contact-content {
+	float: left;
+	width: 45%;
+	background: rgba(8, 30, 3, 0.62);
+	color: white;
+	height: 100%;
+	padding: 4%;
+	padding-bottom: 2%;
+}
+
+div.contact-feedback{
+	float: right;
+	width: 45%;
+	text-align: center;
+	}
+
+		div.field-contact input {
+		height: 37px;
+		padding: 1%;
+		margin: 1%;
+	}
+
+
+/*Site-footer*/
+	div.site-footer {
+		background-color: #333;
+		height: 8em;
+	}
+
+	div.footer-text {
+		  padding-top: 3%;
+ 			text-align: center;
+ 			color: white;
+}
+
+	/*Login-Page*/
+
+	div.login-page {
+		  background-image: url("images/login-bg.jpg");
+}
+div.login-content {
+	border: 14px solid black;
+	background: white;
+margin: 20% 38% 20% 39%;
+padding: 3%;
+padding-top: 1%;
+text-align: center;
+}
+div.login-heading {
+	padding-bottom: 4%;
+	font-weight: bold;
+}
+
+/*New Registration Page*/
+
+#errorAlert {
+	color:red;
+	background:black;
+	font-size:1.2em;
+}
+	div.new-registration-page {
+		  background-image: url("images/reg-bg.jpg");
+		  background-position: center;
+  		background-size: cover;
+}
+div.reg-content {
+	border: 14px solid black;
+	background: white;
+margin: 3% 24% 3% 23%;
+padding: 3%;
+padding-top: 1%;
+text-align: center;
+}
+
+div.field-name,
+div.field-input {
+	float: left;
+	width: 50%;
+}
+div.instructions {
+	text-align: left;
+	font-size: 1.5em;
+}
+div.registration-form {
+	padding-top: 2%;
+}
+
+	div.field-input input {
+		padding: 2% ;
+
+		margin: 3% 3%;
+	}
+
+	div.field-name label {
+				padding: 2% ;
+
+		margin: 3% 3%;
+	}
+
+#residenceType {
+	width:90%;
+}
+/************/
+
+/*User-login-page*/
+	div.user-container>div.navigation-header>div.menu-items {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	li.uname {
+		float: right !important;
+		background: rgb(247, 243, 243);
+		padding: 1%;
+		text-transform: uppercase;
+	}
+
+	div.user-content {
+		height: 50em;
+	}
+
+div.chat-box {
+  display: block;
+  position: fixed;
+  bottom: 0%;
+  right: 10px;
+}
+
+/* Add styles to the form container */
+form.chat-container {
+  max-width: 1000px;
+  padding: 5px;
+  background-color: hwb(214 75% 2%);
+}
+
+/* Full-width textarea */
+form.chat-container textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 3px 0 18px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 50px;
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+form.chat-container .btn {
+  background-color: #04AA6D;
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:8px;
+  opacity: 0.8;
+}
+
+form.chat-container .btn:hover {
+  background-color: #437462;
+}
+
+
+/*Previous messages*/
+div.prev-message {
+	background: cadetblue;
+border-radius: 4%;
+width: 40%;
+margin-bottom: 1%;
+padding: 4%;
+}
+
+div.user-welcome {
+background: url("images/resident-home.jpg");
+margin-left: 20%;
+margin-right: 20%;
+height: 14em;
+background-position: bottom;
+background-size: cover;
+margin-top: 2%;
+}
+
+div.user-welcome span {
+background: black;
+color: white;
+text-transform: uppercase;
+font-size: 2.5em;
+position: relative;
+left: 35%;
+top: 32%;
+}
+
+div.user-offers-heading {
+	text-align: center;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-decoration: underline;
+
+}
+
+div.user-offers {
+background: white;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 2%;
+padding-bottom: 70%;
+}
+
+div.flights-table,
+div.ferry-offers
+ {
+	width: 90%;
+	float: none;
+	padding-left: 2%;
+}
+div.flights-table table,th,td,
+div.ferry-offers table,th,td {
+	 border-collapse: collapse;
+
+}
+
+div.flights-table table {
+	margin: 2%;
+	width: 100%;
+}
+
+div.flights-table th,
+div.flights-table td {
+	padding: 1%;
+}
+
+div.ferry-offers {
+	width: 90%;
+	padding-left: 4%;
+}
+
+/*Profile Page*/
+div.profile-container {
+	background: white;
+}
+div.user-img {
+	text-align: center;
+}
+div.user-img img {
+	width: 30%;
+	border-radius: 100%;
+}
+div.profile-container {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+	padding: 2%;
+	text-align: center;
+	display: inline-block;
+}
+div.profile-det {
+	padding: 2%;
+}
+div.move-out {
+	padding-top: 4%;
+}
+
+div.move-out-form div.field-input>input {
+	padding: 0% !important;
+	margin: 0% !important;
+}
+
+div.move-out-form div.field-name>label {
+	padding: 0% !important; 
+	margin: 0% !important;
+}
+
+div.move-out-form div.row {
+	padding: 3% 0% 4% 0%;
+}
+
+div.move-out-form {
+	border: 2px solid black;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+/*Admin Page*/
+div.admin-container {
+	background: white;
+	height: 20em;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+	text-align: center;
+}
+div.admin-menu {
+	width: 100%;
+	padding-left: 12%;
+	padding-top: 7%;
+}
+
+div.admin-container div.button {
+	background: rgba(58, 55, 60, 0.41);
+	float: left;
+	width: 33%;
+	padding: 1%;
+	margin: 1%;
+	border-radius: 10%;
+}
+
+div.admin-container div.button:hover {
+	background: rgb(55, 13, 110, 0.4);
+}
+/* services */
+div.serviceregistration 
+
+div.service-content {
+border: 14px solid black;
+background: white;
+margin: 10% 18% 20% 20%;
+padding: 2%;
+padding-top: 1%;
+text-align: center;
+}
+div.service-heading {
+padding-bottom: 4%;
+font-weight: bold;
+}
+/* Dropdown Button */
+div.dropbtn {
+	background-color: #04AA6D;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+  }
+  div.dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  div.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  div.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  div.dropdown-content a:hover {
+	  background-color: #ddd;
+	}
+  div.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+  div.dropdown:hover .dropbtn {
+	  background-color: #96dbe7;
+	}
+
+/* Move Out */
+	div.Move-Out {
+		background: white;
+		margin-left: 25%;
+		margin-right: 30%;
+		margin-top: 2%;
+		padding: 2%;
+	}
+div.Move-Out
+ {
+	width: 47%;
+	float: center;
+	padding-left: 1%;
+}
+
+div.Move-Out th,td
+{
+	border: 2px solid black;
+	 border-collapse: collapse;
+
+}
+
+div.Move-Out table {
+	margin: 2%;
+	width: 100%;
+}
+
+div.Move-Out th
+div.Move-Out td
+ {
+	padding: 1%;
+}
+
+/* resident manage */
+div.Residents-table {
+		background: white;
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-top: 2%;
+		padding: 2%;
+		padding-bottom: 15%;
+		width: 56%;
+		float: center;
+		padding-left: 2%;
+		}
+
+div.Residents-table th,td
+{
+	border: 2px solid black;
+	 border-collapse: collapse;
+
+}
+
+div.Residents-table table {
+	margin: 1%;
+	width: 100%;
+}
+
+div.Residents-table th
+div.Residents-table td
+ {
+	padding: 1%;
+}
+
+div.input-button {
+	text-align:center;
+}
+
+/* insights*/
+div.image1{
+	margin-left: 25%;
+	margin-right: 30%;
+	margin-top: 2%;
+	padding: 2%;
+	}
+	div.image2{
+		margin-left: 25%;
+		margin-right: 30%;
+        margin-top: 2%;
+		padding: 2%;
+		}
+		div.image3{
+		margin-left: 25%;
+		margin-right: 30%;
+        padding-bottom: 15%;
+		padding: 2%;
+		}
+
+	/*SUPER ADMIN PAGE*/
+	div.super-admin-menu {
+		width: 100%;
+		padding-left: 12%;
+		padding-top: 7%;
+	}
+
+	div.county-form-button {
+		text-align: center;
+	}
+
+	div.county-form-button input{
+		padding: 1%;
+	}
+/**/
+
+#customers {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	border-radius: 15px;
+  }
+  
+  #customers td, #customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	border-radius: 15px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #555555;
+	color: white;
+  }
+
+  /*Responsive Properties*/
+  @media only screen and (max-width: 1100px) {
+	div.navigation-header div.menu-items {
+		margin-left: 0%;
+		margin-right: 0%;
+	  }
+
+	  div.login-content {
+
+		margin: 20% 3% 20% 3%;
+
+	  }
+
+	  div.reg-content {
+		margin: 3% 1% 3% 1%;
+	  }
+
+	  #residenceType {
+		  width:90%;
+	  }
+
+	  div.footer-text {
+		  font-size:90%;
+	  }
+  }
+
+  div.blog-container {
+	background-image: url("images/bg-blog.jpg");
+	background-size: cover;
+  	height: 120%;
+  	padding: 2%;
+}
+
+div.blog-heading {
+	margin-left: 20%;
+margin-right: 20%;
+background-color: #ddd6d6;
+text-align: center;
+margin-top: 0%;
+font-family: 'Lato', sans-serif;
+font-size: 2.5em;
+}
+
+div.blog-content {
+	  background-color: #ddd6d6;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  padding: 2%;
+}
+
+div.blog-content img {
+	width: 50%;
+}
+div.blog-image {
+	padding: 1%;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+}
+
+div.blog-image img {
+	border-radius: 60%;
+	width: 30%;
+}
+
+/*Chat Functionality*/
+.App {
+	width: 100vw;
+	height: 100vh;
+	background: #fff;
+	color: #212121;
+	font-family: "Open Sans", sans-serif;
+	display: grid;
+	place-items: center;
+  }
+  body {
+	margin: 0%;
+	padding: 0%;
+  }
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+  
+  .joinChatContainer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+  }
+  
+  .joinChatContainer h3 {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+  }
+  .joinChatContainer input {
+	width: 210px;
+	height: 40px;
+	margin: 7px;
+	border: 2px solid #43a047;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 16px;
+  }
+  
+  .joinChatContainer button {
+	width: 225px;
+	height: 50px;
+	margin: 7px;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 16px;
+	background: #43a047;
+	color: #fff;
+	cursor: pointer;
+  }
+  
+  .joinChatContainer button:hover {
+	background: #2e7d32;
+  }
+  
+  .chat-window {
+	width: 300px;
+	height: 420px;
+	position: fixed;
+	right: 1em;
+	bottom: 0%;
+  }
+  
+  .chat-window p {
+	margin: 0;
+  }
+  .chat-window .chat-header {
+	height: 45px;
+	border-radius: 6px;
+	background: #263238;
+	position: relative;
+	cursor: pointer;
+  }
+  .chat-window .chat-header p {
+	display: block;
+	padding: 0 1em 0 2em;
+	color: #fff;
+	font-weight: 700;
+	line-height: 45px;
+  }
+  
+  .chat-window .chat-body {
+	height: calc(450px - (45px + 70px));
+	border: 1px solid #263238;
+	background: #fff;
+  
+	position: relative;
+  }
+  .chat-window .chat-body .message-container {
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+  }
+  
+  .chat-window .chat-body .message-container::-webkit-scrollbar {
+	display: none;
+  }
+  .chat-window .chat-body .message {
+	height: auto;
+	padding: 10px;
+	display: flex;
+  }
+  
+  .chat-window .chat-body .message .message-content {
+	width: auto;
+	height: auto;
+	min-height: 40px;
+	max-width: 120px;
+	background-color: #43a047;
+	border-radius: 5px;
+	color: white;
+	display: flex;
+	align-items: center;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	overflow-wrap: break-word;
+	word-break: break-word;
+  }
+  
+  #you {
+	justify-content: flex-start;
+  }
+  
+  #you .message-content {
+	justify-content: flex-start;
+  }
+  
+  #you .message-meta {
+	justify-content: flex-start;
+	margin-left: 5px;
+  }
+  
+  #other {
+	justify-content: flex-end;
+  }
+  
+  #other .message-content {
+	justify-content: flex-end;
+	background-color: cornflowerblue;
+  }
+  
+  #other .message-meta {
+	justify-content: flex-end;
+	margin-right: 5px;
+  }
+  
+  .message-meta #author {
+	margin-left: 10px;
+	font-weight: bold;
+  }
+  
+  .chat-window .chat-body .message .message-meta {
+	display: flex;
+	font-size: 12px;
+  }
+  
+  .chat-window .chat-footer {
+	height: 40px;
+	border: 1px solid #263238;
+	border-top: none;
+	display: flex;
+  }
+  
+  .chat-window .chat-footer input {
+	height: 100%;
+	flex: 85%;
+	border: 0;
+	padding: 0 0.7em;
+	font-size: 1em;
+	border-right: 1px dotted #607d8b;
+  
+	outline: none;
+	font-family: "Open Sans", sans-serif;
+  }
+  
+  .chat-window .chat-footer button {
+	border: 0;
+	display: grid;
+	place-items: center;
+	cursor: pointer;
+	flex: 15%;
+	height: 100%;
+	background: transparent;
+	outline: none;
+	font-size: 25px;
+	color: lightgray;
+  }
+  
+  .chat-window .chat-footer button:hover {
+	color: #43a047;
+  }
+  .hide {
+	opacity: 0 !important;
+  }
+  
+  /*Insights*/
+
+  div.chart1 {
+	padding: 3%;
+	margin-left: 19.5%;
+	width: 55%;
+	background: white;
+	margin-top: 3%;
+  }
